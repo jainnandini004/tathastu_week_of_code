@@ -1,0 +1,5 @@
+n=(int(i) for i in input("Enter elements in tuple").split())
+z=tuple(n)
+print(z)
+m=int(input("Enter the number whose occurence you want to find "))
+print("Occurence of m is ",z.count(m)," times in the tuple")
