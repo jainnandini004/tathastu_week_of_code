@@ -1,0 +1,7 @@
+n=(int(i) for i in input("Enter elements in tuple").split())
+z=tuple(n)
+print("BEFORE SORTING")
+print(z)
+print("AFTER SORTING")
+print("Ascending order= ",tuple(sorted(z)))
+print("Descending order= ",tuple(sorted(z,reverse=True)))
